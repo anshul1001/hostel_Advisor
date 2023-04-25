@@ -1,0 +1,220 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+}
+
+.property-filter-container {
+    max-width: 20%;
+    padding: 25px;
+    border-right: 1.4px solid #efeeee;
+    flex: 1;
+    background: #ffffff;
+}
+.border-bottom{
+    border-bottom: 0.5px solid black;
+}
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding: 24px;
+    margin-bottom: 70px;
+}
+
+.filter-block {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 0;
+}
+.checkbox-holder{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+.checkbox-holder input, .gender-container input, .bed-selecter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.property-listing-container{
+    padding: 24px 14% 1% 1%;
+    overflow-x: hidden;
+    margin: 0;
+    border: 1px solid #fafafc;
+    flex: 3;
+    background: #ffffff;
+    background-image: linear-gradient(to bottom, #fafafc, #fafafc);
+    background-size: 14% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.sortby-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.property-box {
+    border-radius: 5.7px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 14px 0 rgba(132, 135, 138, 0.1);
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1.4px solid #efeeee;
+}
+.searched-city-details-div {
+    /* margin-bottom: 50px; */
+    margin-bottom: 15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.property-card-details {
+    padding: 16px 20px 0 20px;
+}
+.property-name-gender-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.pg-address {
+    color: #6b6b6b;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.room-price-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    align-items: flex-end;
+    color: #6b6b6b;
+    font-size: 12px;
+}
+.property-more-shown {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 50px 16px 15px;
+    justify-content: space-around;
+}
+.property-more-shown .btn-style-03, .property-more-shown .btn-style-04 {
+    width: 50%;
+    height: 50px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-style-03, .btn-style-04 {
+    color: #FFFFFF;
+    background-color: #019fe9;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px 0 rgba(36, 43, 46, 0.14);
+    font-size: 14px;
+    justify-content: center;
+    cursor: pointer;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    align-items: center;
+    transition: all .2s ease;
+}
+.property-img-slider {
+    overflow: hidden;
+    max-height: 250px;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: -1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}

@@ -1,0 +1,59 @@
+.auth1{
+      
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      left: 36%;
+      width: 28%;
+      border: 1px solid black;
+      margin-top: 3rem;
+      padding-top: 1rem;
+}
+
+.auth1::before{
+
+      position: absolute;
+      content: "";
+      background-image: url("./flat1.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      align-self: center;
+      bottom: 0;
+      right: 0rem;
+      height:70%;
+      width: 100%;
+      opacity:0.2;
+      z-index: -1;
+      margin-bottom: -0.5rem;
+}
+
+.auth1 .login{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 1rem;
+      margin-bottom: 2rem;
+}
+
+.auth1 .login button{
+
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+}
+
+.auth1 h1{
+
+      font-family: 'Chivo Mono', monospace;
+}
+
+.auth1 input{
+
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 0.5rem;
+}
+
+.auth1 span{
+
+      font-family: 'Merriweather', serif;
+}

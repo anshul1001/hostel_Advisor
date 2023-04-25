@@ -1,0 +1,100 @@
+.post{
+
+    position: relative;
+    left: 4%;
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    margin: 1rem;
+    width: 90%;
+    padding: 1rem;
+}
+
+.post h1{
+
+    font-family: 'Chivo Mono', monospace;
+    margin-bottom: 1rem;
+}
+
+.post label,input{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.post::before{
+
+    position: absolute;
+    content: "";
+    background-image: url("./flat1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0.2;
+    z-index: -1;
+}
+
+.personalDetails{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.propertyDetails{
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.propertyDetails .col1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid black;
+}
+
+.propertyDetails .col2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.date{
+
+    margin-bottom: 1rem;
+}
+
+.post button{
+
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.post input{
+
+    height: 2.5rem;
+}
+
+.post .inputImage{
+
+    font-size: 1rem;
+}

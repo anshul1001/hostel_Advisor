@@ -1,0 +1,69 @@
+.search{
+
+    height: 90vh;
+    width: 100%;
+}
+
+.search::before{
+
+    position: absolute;
+    content: "";
+    background-image: url("./flat1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    opacity:0.4;
+    z-index: -1;
+}
+
+.searchBar{
+
+    position: relative;
+    top:5rem;
+    height:20rem;
+    width: 70%;
+    border: 2px solid black;
+    left:13%;
+    justify-content: center;
+}
+
+.search form{
+
+    width: 60%;
+    align-self: center;
+    position: relative;
+    left: 20%;
+    top: 5%;
+    align-items: center;
+}
+
+.search input{
+
+    height: 2.5rem;
+    font-family: 'Anton';
+}
+
+.searchBar button{
+
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.searchBar button:hover{
+
+    background-color: black;
+    color: antiquewhite;
+}
+
+.searchBar h1{
+
+    position: relative;
+    top:5%;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}

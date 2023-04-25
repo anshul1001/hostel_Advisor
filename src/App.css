@@ -1,7 +1,7 @@
-.App {
+/* .App {
   text-align: center;
-}
-
+} */
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -72,10 +72,6 @@ input {
   cursor: pointer;
 }
 
-p{
-  color:red;
-  font-size: small;
-}
 .Details{
   padding: 10px;
   
@@ -83,4 +79,7 @@ p{
 .Link{
   text-decoration: none;
   color: black;
+}  */
+.Acenter{
+  text-align: center;
 }
